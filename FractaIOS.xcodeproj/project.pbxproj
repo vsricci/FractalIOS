@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16BE5DE5A73D87BCDD01B200 /* Pods_FractaIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5C16EB36C5030A4E6390D /* Pods_FractaIOS.framework */; };
+		18380033205BA58A0024F369 /* BeersSearchLoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18380032205BA58A0024F369 /* BeersSearchLoadingTableViewCell.swift */; };
+		18380036205BA6420024F369 /* BeersSearchReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18380035205BA6420024F369 /* BeersSearchReuseIdentifierProtocol.swift */; };
+		1838003A205BC3B40024F369 /* BeersDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18380039205BC3B40024F369 /* BeersDetailsInteractor.swift */; };
+		18CEE43E205D95FF001FBC7A /* FavoriteBeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE43D205D95FF001FBC7A /* FavoriteBeerCell.swift */; };
+		18CEE440205D966B001FBC7A /* FavoriteBeerResuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE43F205D966B001FBC7A /* FavoriteBeerResuseIdentifier.swift */; };
+		18DB76A5205D8BF300A57B3F /* FavoritesBeersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76A4205D8BF300A57B3F /* FavoritesBeersInteractor.swift */; };
+		18DB76A7205D8C0A00A57B3F /* favoritesBeersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76A6205D8C0A00A57B3F /* favoritesBeersPresenter.swift */; };
+		18DB76A9205D8C1A00A57B3F /* FavoritesBeersRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76A8205D8C1A00A57B3F /* FavoritesBeersRouting.swift */; };
+		18DB76AB205D8C2800A57B3F /* FavoritesBeersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76AA205D8C2800A57B3F /* FavoritesBeersAssembly.swift */; };
+		18DB76AD205D8C4D00A57B3F /* FavoritesBeersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB76AC205D8C4D00A57B3F /* FavoritesBeersViewController.swift */; };
 		18F3C1A22059A56600A83C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1A12059A56600A83C7F /* AppDelegate.swift */; };
-		18F3C1A42059A56600A83C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1A32059A56600A83C7F /* ViewController.swift */; };
 		18F3C1A72059A56600A83C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3C1A52059A56600A83C7F /* Main.storyboard */; };
 		18F3C1A92059A56600A83C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3C1A82059A56600A83C7F /* Assets.xcassets */; };
 		18F3C1AC2059A56600A83C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3C1AA2059A56600A83C7F /* LaunchScreen.storyboard */; };
 		18F3C1B72059A56600A83C7F /* FractaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1B62059A56600A83C7F /* FractaIOSTests.swift */; };
 		18F3C1C22059A56600A83C7F /* FractaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1C12059A56600A83C7F /* FractaIOSUITests.swift */; };
+		18F3C1D02059A68B00A83C7F /* BeersSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1CF2059A68B00A83C7F /* BeersSearchInteractor.swift */; };
+		18F3C1D22059A69C00A83C7F /* BeersSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1D12059A69C00A83C7F /* BeersSearchPresenter.swift */; };
+		18F3C1D42059A6D700A83C7F /* BeersSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1D32059A6D700A83C7F /* BeersSearchViewController.swift */; };
+		18F3C1D62059A70400A83C7F /* BeersSearchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1D52059A70400A83C7F /* BeersSearchRouting.swift */; };
+		18F3C1D82059A71700A83C7F /* BeersSearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1D72059A71700A83C7F /* BeersSearchAssembly.swift */; };
+		18F3C1DD2059A75B00A83C7F /* BeersDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1DC2059A75B00A83C7F /* BeersDetailsPresenter.swift */; };
+		18F3C1DF2059A76C00A83C7F /* BeersDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1DE2059A76C00A83C7F /* BeersDetailsViewController.swift */; };
+		18F3C1E12059A77D00A83C7F /* BeersDetailsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1E02059A77D00A83C7F /* BeersDetailsRouting.swift */; };
+		18F3C1E32059A79300A83C7F /* BeersDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1E22059A79300A83C7F /* BeersDetailsAssembly.swift */; };
+		18F3C1E72059AA5500A83C7F /* APIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1E62059AA5500A83C7F /* APIDataManager.swift */; };
+		18F3C1EA2059AB8200A83C7F /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1E92059AB8200A83C7F /* Beer.swift */; };
+		18F3C1ED2059ACBD00A83C7F /* BeersSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1EC2059ACBD00A83C7F /* BeersSearchTableViewCell.swift */; };
+		18F3C1F02059B3EC00A83C7F /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3C1EF2059B3EC00A83C7F /* Contents.swift */; };
+		82DBF75371E0D9235ECB896A /* Pods_FractaIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23F66CABF981BB9CA35BF8 /* Pods_FractaIOSUITests.framework */; };
+		ECDF5BA4751113B3E1BEF102 /* Pods_FractaIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CB248FDE7707A2EFBAB65F /* Pods_FractaIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +59,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134D467B20E6224B160CA6EF /* Pods-FractaIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOS/Pods-FractaIOS.release.xcconfig"; sourceTree = "<group>"; };
+		18380032205BA58A0024F369 /* BeersSearchLoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchLoadingTableViewCell.swift; sourceTree = "<group>"; };
+		18380035205BA6420024F369 /* BeersSearchReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		18380039205BC3B40024F369 /* BeersDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersDetailsInteractor.swift; sourceTree = "<group>"; };
+		18CEE43D205D95FF001FBC7A /* FavoriteBeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBeerCell.swift; sourceTree = "<group>"; };
+		18CEE43F205D966B001FBC7A /* FavoriteBeerResuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBeerResuseIdentifier.swift; sourceTree = "<group>"; };
+		18DB76A4205D8BF300A57B3F /* FavoritesBeersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesBeersInteractor.swift; sourceTree = "<group>"; };
+		18DB76A6205D8C0A00A57B3F /* favoritesBeersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesBeersPresenter.swift; sourceTree = "<group>"; };
+		18DB76A8205D8C1A00A57B3F /* FavoritesBeersRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesBeersRouting.swift; sourceTree = "<group>"; };
+		18DB76AA205D8C2800A57B3F /* FavoritesBeersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesBeersAssembly.swift; sourceTree = "<group>"; };
+		18DB76AC205D8C4D00A57B3F /* FavoritesBeersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesBeersViewController.swift; sourceTree = "<group>"; };
 		18F3C19E2059A56600A83C7F /* FractaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3C1A12059A56600A83C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F3C1A32059A56600A83C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F3C1A62059A56600A83C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F3C1A82059A56600A83C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F3C1AB2059A56600A83C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +82,27 @@
 		18F3C1BD2059A56600A83C7F /* FractaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3C1C12059A56600A83C7F /* FractaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractaIOSUITests.swift; sourceTree = "<group>"; };
 		18F3C1C32059A56600A83C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F3C1CF2059A68B00A83C7F /* BeersSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchInteractor.swift; sourceTree = "<group>"; };
+		18F3C1D12059A69C00A83C7F /* BeersSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchPresenter.swift; sourceTree = "<group>"; };
+		18F3C1D32059A6D700A83C7F /* BeersSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchViewController.swift; sourceTree = "<group>"; };
+		18F3C1D52059A70400A83C7F /* BeersSearchRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchRouting.swift; sourceTree = "<group>"; };
+		18F3C1D72059A71700A83C7F /* BeersSearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchAssembly.swift; sourceTree = "<group>"; };
+		18F3C1DC2059A75B00A83C7F /* BeersDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersDetailsPresenter.swift; sourceTree = "<group>"; };
+		18F3C1DE2059A76C00A83C7F /* BeersDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersDetailsViewController.swift; sourceTree = "<group>"; };
+		18F3C1E02059A77D00A83C7F /* BeersDetailsRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersDetailsRouting.swift; sourceTree = "<group>"; };
+		18F3C1E22059A79300A83C7F /* BeersDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersDetailsAssembly.swift; sourceTree = "<group>"; };
+		18F3C1E62059AA5500A83C7F /* APIDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataManager.swift; sourceTree = "<group>"; };
+		18F3C1E92059AB8200A83C7F /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		18F3C1EC2059ACBD00A83C7F /* BeersSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersSearchTableViewCell.swift; sourceTree = "<group>"; };
+		18F3C1EF2059B3EC00A83C7F /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		24760EBAA5482355139B6617 /* Pods-FractaIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOSTests/Pods-FractaIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69CB248FDE7707A2EFBAB65F /* Pods_FractaIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FractaIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CFEADC41C84A0450D3C377 /* Pods-FractaIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOS/Pods-FractaIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3FFAB77E0B8C5456FAFD87 /* Pods-FractaIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOSUITests/Pods-FractaIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD23F66CABF981BB9CA35BF8 /* Pods_FractaIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FractaIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E5C16EB36C5030A4E6390D /* Pods_FractaIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FractaIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E549CC3BD20FA6FF49B1C733 /* Pods-FractaIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOSTests/Pods-FractaIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFE88881FBFF8129CAC1964B /* Pods-FractaIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FractaIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FractaIOSUITests/Pods-FractaIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BE5DE5A73D87BCDD01B200 /* Pods_FractaIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDF5BA4751113B3E1BEF102 /* Pods_FractaIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DBF75371E0D9235ECB896A /* Pods_FractaIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1838002F205BA5530024F369 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1EC2059ACBD00A83C7F /* BeersSearchTableViewCell.swift */,
+				18380032205BA58A0024F369 /* BeersSearchLoadingTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		18380034205BA5ED0024F369 /* ReuseIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				18380035205BA6420024F369 /* BeersSearchReuseIdentifierProtocol.swift */,
+			);
+			path = ReuseIdentifier;
+			sourceTree = "<group>";
+		};
+		18380037205BB0270024F369 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1D12059A69C00A83C7F /* BeersSearchPresenter.swift */,
+				18F3C1CF2059A68B00A83C7F /* BeersSearchInteractor.swift */,
+				18F3C1D32059A6D700A83C7F /* BeersSearchViewController.swift */,
+				18F3C1D52059A70400A83C7F /* BeersSearchRouting.swift */,
+				18F3C1D72059A71700A83C7F /* BeersSearchAssembly.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18380038205BB04D0024F369 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1DC2059A75B00A83C7F /* BeersDetailsPresenter.swift */,
+				18F3C1DE2059A76C00A83C7F /* BeersDetailsViewController.swift */,
+				18F3C1E02059A77D00A83C7F /* BeersDetailsRouting.swift */,
+				18F3C1E22059A79300A83C7F /* BeersDetailsAssembly.swift */,
+				18380039205BC3B40024F369 /* BeersDetailsInteractor.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18CEE43C205D95EA001FBC7A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE43D205D95FF001FBC7A /* FavoriteBeerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18CEE441205D96A9001FBC7A /* ReuseIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE43F205D966B001FBC7A /* FavoriteBeerResuseIdentifier.swift */,
+			);
+			path = ReuseIdentifier;
+			sourceTree = "<group>";
+		};
+		18DB76A3205D8BB700A57B3F /* BeersFavorites */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE43C205D95EA001FBC7A /* Cell */,
+				18DB76A4205D8BF300A57B3F /* FavoritesBeersInteractor.swift */,
+				18DB76A6205D8C0A00A57B3F /* favoritesBeersPresenter.swift */,
+				18DB76A8205D8C1A00A57B3F /* FavoritesBeersRouting.swift */,
+				18DB76AA205D8C2800A57B3F /* FavoritesBeersAssembly.swift */,
+				18DB76AC205D8C4D00A57B3F /* FavoritesBeersViewController.swift */,
+				18CEE441205D96A9001FBC7A /* ReuseIdentifier */,
+			);
+			path = BeersFavorites;
+			sourceTree = "<group>";
+		};
 		18F3C1952059A56600A83C7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +211,8 @@
 				18F3C1B52059A56600A83C7F /* FractaIOSTests */,
 				18F3C1C02059A56600A83C7F /* FractaIOSUITests */,
 				18F3C19F2059A56600A83C7F /* Products */,
+				7E2581D5E74B36126978DFB1 /* Pods */,
+				9FF148D13204505E69B5ACC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +229,17 @@
 		18F3C1A02059A56600A83C7F /* FractaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				18F3C1EE2059B3DD00A83C7F /* Utils */,
+				18F3C1E82059AB7400A83C7F /* Models */,
+				18F3C1E52059AA4000A83C7F /* Services */,
 				18F3C1A12059A56600A83C7F /* AppDelegate.swift */,
-				18F3C1A32059A56600A83C7F /* ViewController.swift */,
 				18F3C1A52059A56600A83C7F /* Main.storyboard */,
 				18F3C1A82059A56600A83C7F /* Assets.xcassets */,
 				18F3C1AA2059A56600A83C7F /* LaunchScreen.storyboard */,
 				18F3C1AD2059A56600A83C7F /* Info.plist */,
+				18DB76A3205D8BB700A57B3F /* BeersFavorites */,
+				18F3C1D92059A72300A83C7F /* BeersSearch */,
+				18F3C1E42059A7A100A83C7F /* BeersDetails */,
 			);
 			path = FractaIOS;
 			sourceTree = "<group>";
@@ -125,6 +262,79 @@
 			path = FractaIOSUITests;
 			sourceTree = "<group>";
 		};
+		18F3C1D92059A72300A83C7F /* BeersSearch */ = {
+			isa = PBXGroup;
+			children = (
+				18380034205BA5ED0024F369 /* ReuseIdentifier */,
+				18F3C1EB2059AC4B00A83C7F /* BeerSeachCell */,
+				18380037205BB0270024F369 /* Modules */,
+			);
+			path = BeersSearch;
+			sourceTree = "<group>";
+		};
+		18F3C1E42059A7A100A83C7F /* BeersDetails */ = {
+			isa = PBXGroup;
+			children = (
+				18380038205BB04D0024F369 /* Modules */,
+			);
+			path = BeersDetails;
+			sourceTree = "<group>";
+		};
+		18F3C1E52059AA4000A83C7F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1E62059AA5500A83C7F /* APIDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18F3C1E82059AB7400A83C7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1E92059AB8200A83C7F /* Beer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18F3C1EB2059AC4B00A83C7F /* BeerSeachCell */ = {
+			isa = PBXGroup;
+			children = (
+				1838002F205BA5530024F369 /* cell */,
+			);
+			path = BeerSeachCell;
+			sourceTree = "<group>";
+		};
+		18F3C1EE2059B3DD00A83C7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18F3C1EF2059B3EC00A83C7F /* Contents.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7E2581D5E74B36126978DFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74CFEADC41C84A0450D3C377 /* Pods-FractaIOS.debug.xcconfig */,
+				134D467B20E6224B160CA6EF /* Pods-FractaIOS.release.xcconfig */,
+				24760EBAA5482355139B6617 /* Pods-FractaIOSTests.debug.xcconfig */,
+				E549CC3BD20FA6FF49B1C733 /* Pods-FractaIOSTests.release.xcconfig */,
+				FFE88881FBFF8129CAC1964B /* Pods-FractaIOSUITests.debug.xcconfig */,
+				7E3FFAB77E0B8C5456FAFD87 /* Pods-FractaIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FF148D13204505E69B5ACC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6E5C16EB36C5030A4E6390D /* Pods_FractaIOS.framework */,
+				69CB248FDE7707A2EFBAB65F /* Pods_FractaIOSTests.framework */,
+				AD23F66CABF981BB9CA35BF8 /* Pods_FractaIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F3C1C62059A56600A83C7F /* Build configuration list for PBXNativeTarget "FractaIOS" */;
 			buildPhases = (
+				E1CD4579733DED40D8EB1C7D /* [CP] Check Pods Manifest.lock */,
 				18F3C19A2059A56600A83C7F /* Sources */,
 				18F3C19B2059A56600A83C7F /* Frameworks */,
 				18F3C19C2059A56600A83C7F /* Resources */,
+				E9CE986ECFA4DF6AC18AE07F /* [CP] Embed Pods Frameworks */,
+				7CFFA0B5D312E6F66EED4F42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F3C1C92059A56600A83C7F /* Build configuration list for PBXNativeTarget "FractaIOSTests" */;
 			buildPhases = (
+				DBB83D6151B5339A4F00C903 /* [CP] Check Pods Manifest.lock */,
 				18F3C1AE2059A56600A83C7F /* Sources */,
 				18F3C1AF2059A56600A83C7F /* Frameworks */,
 				18F3C1B02059A56600A83C7F /* Resources */,
+				13BE17C90DEB408F00E397DD /* [CP] Embed Pods Frameworks */,
+				52D0F015F5C746CA0C21B17F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +383,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F3C1CC2059A56600A83C7F /* Build configuration list for PBXNativeTarget "FractaIOSUITests" */;
 			buildPhases = (
+				A915570739F728691CFEA0BE /* [CP] Check Pods Manifest.lock */,
 				18F3C1B92059A56600A83C7F /* Sources */,
 				18F3C1BA2059A56600A83C7F /* Frameworks */,
 				18F3C1BB2059A56600A83C7F /* Resources */,
+				AB5EA6FB2618184B9E8A8D4F /* [CP] Embed Pods Frameworks */,
+				636A3B99BE173A60C39C9F34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +413,11 @@
 					18F3C19D2059A56600A83C7F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					18F3C1B12059A56600A83C7F = {
 						CreatedOnToolsVersion = 9.2;
@@ -254,13 +478,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13BE17C90DEB408F00E397DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOSTests/Pods-FractaIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D0F015F5C746CA0C21B17F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOSTests/Pods-FractaIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636A3B99BE173A60C39C9F34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOSUITests/Pods-FractaIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFFA0B5D312E6F66EED4F42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOS/Pods-FractaIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A915570739F728691CFEA0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FractaIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5EA6FB2618184B9E8A8D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOSUITests/Pods-FractaIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB83D6151B5339A4F00C903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FractaIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CD4579733DED40D8EB1C7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FractaIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CE986ECFA4DF6AC18AE07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOS/Pods-FractaIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FractaIOS/Pods-FractaIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18F3C19A2059A56600A83C7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F3C1A42059A56600A83C7F /* ViewController.swift in Sources */,
+				18DB76A5205D8BF300A57B3F /* FavoritesBeersInteractor.swift in Sources */,
+				18F3C1D02059A68B00A83C7F /* BeersSearchInteractor.swift in Sources */,
+				18DB76A7205D8C0A00A57B3F /* favoritesBeersPresenter.swift in Sources */,
+				18F3C1ED2059ACBD00A83C7F /* BeersSearchTableViewCell.swift in Sources */,
+				18F3C1DF2059A76C00A83C7F /* BeersDetailsViewController.swift in Sources */,
+				18F3C1E12059A77D00A83C7F /* BeersDetailsRouting.swift in Sources */,
+				18DB76A9205D8C1A00A57B3F /* FavoritesBeersRouting.swift in Sources */,
+				18380033205BA58A0024F369 /* BeersSearchLoadingTableViewCell.swift in Sources */,
+				18380036205BA6420024F369 /* BeersSearchReuseIdentifierProtocol.swift in Sources */,
+				18F3C1E32059A79300A83C7F /* BeersDetailsAssembly.swift in Sources */,
+				1838003A205BC3B40024F369 /* BeersDetailsInteractor.swift in Sources */,
+				18DB76AB205D8C2800A57B3F /* FavoritesBeersAssembly.swift in Sources */,
+				18F3C1EA2059AB8200A83C7F /* Beer.swift in Sources */,
+				18F3C1F02059B3EC00A83C7F /* Contents.swift in Sources */,
+				18DB76AD205D8C4D00A57B3F /* FavoritesBeersViewController.swift in Sources */,
+				18F3C1D42059A6D700A83C7F /* BeersSearchViewController.swift in Sources */,
+				18F3C1E72059AA5500A83C7F /* APIDataManager.swift in Sources */,
+				18CEE440205D966B001FBC7A /* FavoriteBeerResuseIdentifier.swift in Sources */,
+				18CEE43E205D95FF001FBC7A /* FavoriteBeerCell.swift in Sources */,
 				18F3C1A22059A56600A83C7F /* AppDelegate.swift in Sources */,
+				18F3C1DD2059A75B00A83C7F /* BeersDetailsPresenter.swift in Sources */,
+				18F3C1D62059A70400A83C7F /* BeersSearchRouting.swift in Sources */,
+				18F3C1D82059A71700A83C7F /* BeersSearchAssembly.swift in Sources */,
+				18F3C1D22059A69C00A83C7F /* BeersSearchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +767,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +818,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,11 +828,13 @@
 		};
 		18F3C1C72059A56600A83C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CFEADC41C84A0450D3C377 /* Pods-FractaIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 889286V7CX;
 				INFOPLIST_FILE = FractaIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vsricci.FractaIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +845,13 @@
 		};
 		18F3C1C82059A56600A83C7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134D467B20E6224B160CA6EF /* Pods-FractaIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 889286V7CX;
 				INFOPLIST_FILE = FractaIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vsricci.FractaIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +862,7 @@
 		};
 		18F3C1CA2059A56600A83C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24760EBAA5482355139B6617 /* Pods-FractaIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +880,7 @@
 		};
 		18F3C1CB2059A56600A83C7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E549CC3BD20FA6FF49B1C733 /* Pods-FractaIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +898,7 @@
 		};
 		18F3C1CD2059A56600A83C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE88881FBFF8129CAC1964B /* Pods-FractaIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +915,7 @@
 		};
 		18F3C1CE2059A56600A83C7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3FFAB77E0B8C5456FAFD87 /* Pods-FractaIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
